@@ -1,0 +1,337 @@
+* {
+    background: #b9ebb9;
+}
+body {
+    text-align: center;
+}
+#logo {
+    width: 50vw;
+}
+
+#titulo_generales{
+    font-size: 4em;
+}
+#texto_obj_general{
+    border-radius: 10px;
+    background-color: #ffeaa3;
+    text-align: center;
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+
+
+section div a {
+    color: #000000;
+}
+
+
+
+#textocentral {
+    width: 80vw;
+    margin: auto;
+    padding: 5px;
+}
+
+header h1 {
+    font-size: 8em;
+    margin: 10px auto;
+    color: aliceblue;
+    text-shadow: 10px 10px 10px #000000,2px 2px 7px #000000,2px 2px 7px #000000,2px 2px 7px #000000;
+    background: #c6ff70;
+    width: 600px;
+    border: 1px solid rgb(0, 61, 0);
+}
+
+header {
+    width: 75vw;
+    margin: auto;
+}
+#general {
+    font-size: 5em;
+    width: 80vw;
+    margin: auto;
+}
+.describe {
+    font-size: 3em;
+    color: #060630;
+}
+h2 {
+    margin: 2vw auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
+
+
+
+/*Menu*/
+ 
+#texto_menu_centrar{
+    margin: auto;
+}
+#header {
+    background-color: #f061c0;
+    margin: auto;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    background-color: #f061c0;
+}
+
+.nav > li {
+
+    float: left;
+    min-width: 15vw;
+}
+
+.nav li a {
+    background-color:  #f061c0;
+    color: #000;
+    margin: auto;
+    text-decoration: none;
+    padding: 0.8vw 0.8vw;
+    display: block;
+}
+    .nav li a:hover {
+        background-color: #f146b8;
+    }
+
+     /* Esto se usaria para desplegar submenus */
+    .nav li ul {
+        display:none;
+        position: absolute;
+        min-width: 15vw;
+        text-align: center;
+    }
+
+    .nav li:hover > ul {
+        display: block;
+        position: absolute;
+        background-color: turquoise;
+        text-align: center;
+    }
+
+    .nav li ul li {
+        position: relative;
+        
+    }
+
+        .nav li ul li ul {
+            left: 15vw;
+            top: 0px;
+           
+        }
+
+      
+       
+
+
+    
+.pie_pagina{
+    font-size: 2vw;
+    background: #f061c0;
+    padding: 3vw 2vw ;
+    overflow: hidden;
+}
+
+.pie_pagina div a{
+    background: #f061c0;
+    margin: auto;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+.pie_pagina div a:hover{
+    background: #f061c0;
+    color: rgb(121, 121, 121);
+}
+
+#imagen_pie_pagina{
+    background-color: #f061c0;
+    margin: -2.5vw;
+    float: right;
+    width: 15vw;
+    height: 15vw;
+    overflow: hidden;
+
+}
+
+#acomodar_texto_pie{
+    background-color: #f061c0;
+    float: left;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    * {
+        background: #b9ebb9;
+    }
+    body {
+        text-align: center;
+        margin: auto;
+    }
+    div {
+        margin: auto;
+    }
+    #texto_obj_general{
+        background-color: #ffeaa3;
+        text-align: center;
+        font-size: 4vw;
+        padding: 1vw;
+    }
+    div div a {
+        color: #000000;
+    }
+    
+    #textocentral {
+        width: 80vw;
+        margin: auto;
+        padding: 5px;
+    }
+    
+    header h1 {
+        font-size: 8em;
+        margin: 10px auto;
+        color: aliceblue;
+        text-shadow: 10px 10px 10px #000000,2px 2px 7px #000000,2px 2px 7px #000000,2px 2px 7px #000000;
+        background: #c6ff70;
+        width: 70vw;
+        border: 1px solid rgb(0, 61, 0);
+    }
+    
+    header {
+        width: 75vw;
+        margin: auto;
+    }
+    #general {
+        font-size: 5em;
+        width: 80vw;
+        margin: auto;
+    }
+    table {
+        width: 100%;
+    }
+    .describe {
+        font-size: 3em;
+        color: #060630;
+    }
+    #logo {
+        width: 80vw;
+        border-radius: 5px;
+    }
+    
+   
+
+    #texto_menu_centrar{
+        margin: auto;
+    }
+    
+    .nav {
+        width: 100vw;
+        margin: auto;
+        text-align: center;
+        background-color: #f061c0;
+        font-size: large;
+    }
+    
+    .nav > li {
+    
+        float: left;
+        min-width: 10vw;
+    }
+    
+    .nav li a {
+        background-color:  #f061c0;
+        color: #000;
+        margin: auto;
+        text-decoration: none;
+        padding: 1vw 1vw;
+        display: block;
+        font-size: 3vw;
+    }
+        .nav li a:hover {
+            background-color: #f146b8;
+        }
+    
+         /* Esto se usaria para desplegar submenus */
+        .nav li ul {
+            display:none;
+            position: absolute;
+            min-width: 18.5vw;
+            max-width: 18.5vw;
+            text-align: center;
+        }
+    
+        .nav li:hover > ul {
+            display: block;
+            position: absolute;
+            background-color: turquoise;
+            text-align: center;
+        }
+    
+        .nav li ul li {
+            position: relative;
+            
+        }
+    
+            .nav li ul li ul {
+                left: 18.5vw;
+                top: 0px;
+
+               
+            }
+    
+          
+           
+    
+        .pie_pagina{
+            font-size: 4vw;
+            background: #f061c0;
+            padding: 3vw 2vw ;
+            overflow: hidden;
+        }
+    
+        .pie_pagina div a{
+            margin-left: 2vw;
+            margin: auto;
+            color: rgb(51, 51, 51);
+            text-decoration: none;
+            display: inline-block;
+        }
+        .pie_pagina div a:hover{
+            color: rgb(121, 121, 121);
+        }
+    
+        #imagen_pie_pagina{
+            float: right;
+            margin:auto;
+            width: 27vw;
+            height: 27vw;
+            overflow: hidden;
+        }
+        #acomodar_texto_pie{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f061c0;
+            left: 0;
+            font-size: 4vw;
+        }
+
+        #texto_marca{
+            background-color: #ffeaa3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3vw;
+            text-shadow: none;
+        }
+
+        
+
+        
+}

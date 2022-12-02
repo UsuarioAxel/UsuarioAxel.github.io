@@ -1,0 +1,565 @@
+* {
+    margin: 0px;
+    padding: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fondo{
+        background: #b9ebb9;
+        padding: 0vw 0vw;
+        overflow: auto;
+    }
+   
+    /*Imagen del producto e información*/
+    .separador_imagen_texto {
+        padding: 3vw 3vw;
+        width: 88vw;
+        height: 30vw;
+        font-size: 2.4vw;
+        box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+        border-radius: 5px;
+        text-align: justify;
+        overflow: hidden;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        background: white;
+        margin: auto;
+    }
+
+    /*Imagen del producto*/
+    #imagen_principal{
+        border-radius: 5px;
+        height: 30vw;
+        width: 28vw;
+        float: left;
+        margin-right: 1.7vw;
+    }
+
+    #tam_prod{
+        float: none;
+        margin: auto;
+        width: 25vw;
+        height: 20vw;
+        margin-left: -2vw;
+    }
+    /*Valores del texto*/
+    #texto{
+        height: 30vw;
+        width: 28vw;
+        font-size: 1.3vw;
+        line-height: 1.5;
+        background:#ffeaa3 ;
+        box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+        border-radius: 5px;
+        text-align: justify;
+        float: left;
+        overflow: hidden;
+    }
+
+
+    /*Imagen del cuerpo*/
+
+    .imagen_cuerpo
+    {
+        border-radius: 5px;
+        margin-left: 2vw;
+        height: 30vw;
+        width: 28vw;
+        float: right;
+    }
+
+    /*Sellos*/
+
+    .tabla_sellos
+    {
+    
+        padding: 3vw 3vw;
+        margin:auto;
+        background: #c6ff70;
+        width: 88vw;
+        height: 20vw;
+        overflow: visible;
+        border-radius: 5px;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        text-align: justify;
+
+    }
+
+    #contenedor_de_sellos{
+        border-radius: 5px;
+        background:green;
+        margin: auto;
+        height: 20vw;
+        overflow: hidden;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .acomodar_texto{
+        padding: 1.7vw 0;
+        text-align: 1.5vh;
+        height: 2vw;
+        text-align: center;
+        overflow: hidden;
+        margin-bottom: 1vw;
+        font-size: 3vw;
+    }
+
+
+    #acomodar_sellos{
+        display: inline-block;
+        border-radius: 5px;
+        margin-left: 2vh;
+        margin: auto;
+        width: 12vw;
+        height: 10vw;
+        overflow: hidden;
+        
+    }
+    #tam_sello
+    {
+        height: 6vw;
+        width: 6vw;
+        overflow: auto;
+    }
+
+    #texto_copyright{
+        font-size: 1vw;
+        height: 3vw;
+        width: 3vw;
+        text-decoration: none;
+        color: #000;
+    }
+
+    #texto_copyright_2{
+        margin: auto;
+        font-size: 1vw;
+        height: 4vw;
+        text-decoration: none;
+        color: #000;
+        overflow: hidden;
+        display: block;
+        float: none;
+    }
+
+    #texto_copyright_3{
+        margin: auto;
+        font-size: 1vw;
+        height: 4vw;
+        text-decoration: none;
+        color: #000;
+        overflow: hidden;
+        display: block;
+        float: none;
+        margin-left: 10vw;
+    }
+
+    #cen_img_cuerpo{
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
+        margin-left: 4.8vw;
+    }
+
+
+
+
+
+
+
+
+    /*Menu*/
+
+
+
+   
+
+    ul, ol {
+        list-style: none;
+    }
+
+ #texto_menu_centrar{
+        margin: auto;
+    }
+    #header {
+        background-color: #f061c0;
+        margin: auto;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav {
+        width: 100vw;
+        margin: auto;
+        text-align: center;
+        background-color: #f061c0;
+    }
+    
+    .nav > li {
+    
+        float: left;
+        min-width: 15vw;
+    }
+    
+    .nav li a {
+        background-color:  #f061c0;
+        color: #000;
+        margin: auto;
+        text-decoration: none;
+        padding: 0.8vw 0.8vw;
+        display: block;
+    }
+        .nav li a:hover {
+            background-color: #f146b8;
+        }
+    
+         /* Esto se usaria para desplegar submenus */
+        .nav li ul {
+            display:none;
+            position: absolute;
+            min-width: 15vw;
+            text-align: center;
+        }
+    
+        .nav li:hover > ul {
+            display: block;
+            position: absolute;
+            background-color: turquoise;
+            text-align: center;
+            padding: 0vw 0vw 0vw 3vw;
+        }
+    
+        .nav li ul li {
+            position: relative;
+            
+        }
+    
+            .nav li ul li ul {
+                left: 15vw;
+                top: 0px;
+               
+            }
+
+
+
+/*Pie de pagina*/
+
+.pie_pagina{
+    font-size: 2vw;
+    background: #f061c0;
+    padding: 3vw 2vw ;
+    overflow: hidden;
+}
+
+.pie_pagina div a{
+    margin-left: 2vw;
+    margin: auto;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    display: inline-block;
+}
+.pie_pagina div a:hover{
+    color: rgb(121, 121, 121);
+}
+
+#imagen_pie_pagina{
+    float: right;
+    margin: -2.5vw;
+    width: 15vw;
+    height: 15vw;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1000px){
+
+
+    .fondo{
+        padding: 0 3vw;
+        overflow: auto;
+    }
+    
+    /*Imagen del producto e información*/
+    .separador_imagen_texto {
+        padding: 3vw 3vw;
+        width: 70vw;
+        height: 170vw;
+        font-size: 2.4vw;
+        border-radius: 5px;
+        margin: auto;
+        overflow: hidden;
+        margin-bottom: 2vw;
+        background: white;
+    }
+
+    /*Imagen del producto*/
+    #imagen_principal{
+        padding: 1vw;
+        margin-left: 10.5vw;
+        text-align: justify;
+        border-radius: 5px;
+        height: 60vw;
+        width: 48vw;
+        overflow: visible;
+        margin-bottom:3vw ;
+        margin-right: 0;
+    }
+
+    #tam_prod{
+        margin: auto;
+        width: 50vw;
+        height: 40vw;
+    }
+
+    #texto_copyright_2{
+        margin: auto;
+        font-size: 2vw;
+        height: 8vw;
+        text-decoration: none;
+        color: #000;
+        overflow: hidden;
+        display: block;
+    }
+
+    /*Valores del texto*/
+    #texto{
+        padding: 1vw;
+        margin-left: 10.5vw;
+        height: 44vw;
+        width: 48vw;
+        font-size: 2vw;
+        line-height: 2.9vw;
+        border-radius: 5px;
+        text-align: justify;
+        overflow: auto;
+        margin-bottom: 3vw;
+    }
+
+
+    /*Imagen del cuerpo*/
+
+    .imagen_cuerpo
+    {
+        border-radius: 5px;
+        padding: 0vw;
+        float:none;
+        margin-left: 10.5vw;
+        border-radius: 5px;
+        height: 60vw;
+        width: 48vw;
+        text-align: justify;
+        overflow: hidden;
+        margin-bottom: 3vw;
+    }
+
+    #texto_copyright_3{
+        margin: auto;
+        font-size: 3vw;
+        height: 4vw;
+        text-decoration: none;
+        color: #000;
+        overflow: hidden;
+        display: block;
+        float: none;
+        margin-left: 12vw;
+    }
+
+    #cen_img_cuerpo{
+        width: 45vw;
+        height: 45vw;
+        margin: auto;
+        margin-left: 3vw;
+    }
+
+    /*Sellos*/
+
+    .tabla_sellos
+    {
+    
+        padding: 3vw 3vw;
+        margin:auto;
+        background: #c6ff70;
+        width: 70vw;
+        height: auto;
+        overflow: auto;
+        border-radius: 5px;
+        margin-bottom: 1vw;
+        text-align: justify;
+
+    }
+
+    #contenedor_de_sellos{
+        border-radius: 5px;
+        background:green;
+        float:left;
+        width: 64vw;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+        overflow: hidden;
+        margin-bottom: 3vw;
+        padding: 3vw;
+    }
+
+    .acomodar_texto{
+        padding: 1.7vw 0;
+        width: 64vw;
+        height: 3vw;
+        text-align: center;
+        overflow: hidden;
+        font-size: 4vw;
+        margin-bottom: 1vw;
+
+    }
+
+    
+    #tam_sello
+    {
+        height: 11vw;
+        width: 10vw;
+        overflow: auto;
+
+    }
+
+    #texto_copyright{
+        font-size: 1.4vw;
+        height: 3vw;
+        width: 3vw;
+        text-decoration: none;
+        color: #000;
+    }
+
+    #acomodar_sellos{
+        display: inline-block;
+        border-radius: 5px;
+        margin-left: 2vh;
+        margin: auto;
+        width: 16vw;
+        height: 15vw;
+        overflow: hidden;
+        
+    }
+    
+
+    
+    
+
+
+
+    /*Menu*/
+
+    #header {
+        background-color: #f061c0;
+        margin: auto;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vw;
+    }
+
+    #texto_menu_centrar{
+        margin: auto;
+    }
+
+    ul, ol {
+        list-style: none;
+    }
+
+    .nav {
+        width: 100vw;
+        margin: auto;
+        text-align: center;
+        background-color: #f061c0;
+    }
+    
+    .nav > li {
+    
+        float: left;
+        min-width: 15vw;
+    }
+    
+    .nav li a {
+        background-color:  #f061c0;
+        color: #000;
+        margin: auto;
+        text-decoration: none;
+        padding: 0.8vw 0.8vw;
+        display: block;
+    }
+        .nav li a:hover {
+            background-color: #f146b8;
+        }
+    
+         /* Esto se usaria para desplegar submenus */
+        .nav li ul {
+            display:none;
+            position: absolute;
+            min-width: 18.5vw;
+            max-width: 18.5vw;
+            text-align: center;
+        }
+    
+        .nav li:hover > ul {
+            display: block;
+            position: absolute;
+            background-color: turquoise;
+            text-align: center;
+            padding: 0vw 0vw 0vw 4vw;
+        }
+    
+        .nav li ul li {
+            position: relative;
+            
+        }
+    
+            .nav li ul li ul {
+                left: 18.5vw;
+                top: 0px;
+               
+            }
+
+
+
+
+
+
+    /*Pie de pagina*/
+
+    .pie_pagina{
+        font-size: 4vw;
+        background: #f061c0;
+        padding: 3vw 2vw ;
+        overflow: hidden;
+    }
+
+    .pie_pagina div a{
+        margin-left: 2vw;
+        margin: auto;
+        color: rgb(51, 51, 51);
+        text-decoration: none;
+        display: inline-block;
+    }
+    .pie_pagina div a:hover{
+        color: rgb(121, 121, 121);
+    }
+
+    #imagen_pie_pagina{
+        float: right;
+        margin:auto;
+        width: 27vw;
+        height: 27vw;
+        overflow: hidden;
+    }
+
+}
+

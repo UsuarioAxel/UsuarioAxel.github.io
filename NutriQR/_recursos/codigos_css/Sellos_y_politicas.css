@@ -1,0 +1,472 @@
+*{
+    margin: 0px;
+    padding: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fondo{
+    background: #b9ebb9;
+    padding: 2vw 0vw;
+    overflow: auto;
+}
+
+ /*Imagen del sello e información*/
+ .separador_imagen_texto {
+    padding: 3vw 3vw;
+    width: 88vw;
+    height: 26vw;
+    font-size: 2.4vw;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    background: white;
+    margin: auto;
+}
+
+#centrar{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2vw;
+    font-size: 5vw;
+}
+
+
+ /*Valores del texto*/
+ #texto{
+    height: 30vw;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    border-radius: 5px;
+    text-align: justify;
+    float: left;
+    overflow: hidden;
+    display: flex;
+    margin-top: 3.5vw;
+}
+
+/*Menu*/
+
+
+#header {
+    background-color: #f061c0;
+    margin: auto;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto_menu_centrar{
+    margin: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav {
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    background-color: #f061c0;
+}
+
+.nav > li {
+
+    float: left;
+    min-width: 15vw;
+}
+
+.nav li a {
+    background-color:  #f061c0;
+    color: #000;
+    margin: auto;
+    text-decoration: none;
+    padding: 0.8vw 0.8vw;
+    display: block;
+}
+    .nav li a:hover {
+        background-color: #f146b8;
+    }
+
+     /* Esto se usaria para desplegar submenus */
+    .nav li ul {
+        display:none;
+        position: absolute;
+        min-width: 15vw;
+        text-align: center;
+    }
+
+    .nav li:hover > ul {
+        display: block;
+        position: absolute;
+        background-color: turquoise;
+        text-align: center;
+        padding: 0vw 0vw 0vw 3vw;
+    }
+
+    .nav li ul li {
+        position: relative;
+        
+    }
+
+        .nav li ul li ul {
+            left: 15vw;
+            top: 0px;
+           
+        }
+
+
+
+/*Pie de pagina*/
+.pie_pagina{
+    font-size: 2vw;
+    background: #f061c0;
+    padding: 3vw 2vw ;
+    overflow: hidden;
+}
+
+.pie_pagina div a{
+    margin-left: 2vw;
+    margin: auto;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    display: inline-block;
+}
+.pie_pagina div a:hover{
+    color: rgb(121, 121, 121);
+}
+
+#imagen_pie_pagina{
+    float: right;
+    margin: -2.5vw;
+    width: 15vw;
+    height: 15vw;
+    overflow: hidden;
+
+}
+
+#texto_declaracion{
+    height: 30vw;
+    font-size: 2vw;
+    line-height: 1.5;
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#texto_declaracion_seguridad{
+    height: 30vw;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+
+.separador_declaracion {
+    padding: 3vw 3vw;
+    width: 88vw;
+    height: 27vw;
+    font-size: 2.4vw;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    background: white;
+    margin: auto;
+}
+
+.separador_declaracion_seguridad {
+    padding: 3vw 3vw;
+    width: 88vw;
+    height: 32vw;
+    font-size: 2.4vw;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    background: white;
+    margin: auto;
+}
+
+
+
+#Presentar_miembro
+{
+    float: right;
+    font-size: 2vw;
+    line-height: 1.5;
+    text-align: justify;
+    overflow: hidden;
+    
+
+}
+
+#imagen_miembro{
+    width: 22vw;
+    float: left;
+    overflow: hidden;
+}
+
+/*Imagen del sello*/
+
+.almacena_sello{
+    width: 16vw;
+    height: auto;
+    float: left;
+    margin-right: 1.7vw;
+}
+#imagen_del_sello{
+    border-radius: 5px;
+    height: 15vw;
+    width: 15vw;
+    float: left;
+}
+
+
+#copyright{
+    display: block;
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+    margin: auto;
+    margin-left: 2.2vw;
+}
+
+
+
+
+@media only screen and (max-width:1000px){
+
+
+    .fondo{
+        padding: 2vw 3vw;
+        overflow: auto;
+    }
+    
+    /*Imagen del sello e información*/
+    .separador_imagen_texto {
+        padding: 3vw 3vw;
+        width: 70vw;
+        height: auto;
+        font-size: 2.4vw;
+        border-radius: 5px;
+        margin: auto;
+        overflow: hidden;
+        margin-bottom: 2vw;
+        background: white;
+    }
+
+    
+
+    
+    #centrar{
+        font-size: 10vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    /*Valores del texto*/
+    #texto{
+        padding: 1vw;
+        height: 60vw;
+        width: 48vw;
+        font-size: 3vw;
+        line-height: 3.3vw;
+        border-radius: 5px;
+        margin-bottom: 3vw;
+        display: flex;
+        text-align: justify;
+        margin-left: 10vw;
+        margin-top: none;
+    }
+
+    /*Menu*/
+
+    #header {
+        background-color: #f061c0;
+        padding: 2vw 2.5vw;
+        margin: auto;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5vw;
+    }
+
+    #texto_menu_centrar{
+        margin: auto;
+    }
+
+    ul, ol {
+        list-style: none;
+    }
+
+    .nav > li {
+        margin-right: 1vw;
+        float: left;
+    }
+
+    .nav li a {
+        background-color:  #f061c0;
+        color: #000;
+        margin: auto;
+        text-decoration: none;
+        padding: 0.8vw 0.8vw;
+        display: block;
+    }
+
+        .nav li a:hover {
+            background-color: #f146b8;
+        }
+    /*Esto se usaria para desplegar submenus
+    .nav li ul {
+        display: none;
+        position: absolute;
+        min-width: 140px;
+    }
+
+    .nav li:hover > ul {
+        display: block;
+    }
+
+    .nav li ul li {
+        position: relative;
+    }
+
+        .nav li ul li ul {
+            right: -140px;
+            top: 0px;
+        }
+
+    */
+
+
+
+
+
+
+    /*Pie de pagina*/
+
+    .pie_pagina{
+        font-size: 4vw;
+        background: #f061c0;
+        padding: 3vw 2vw ;
+        overflow:hidden;
+    }
+
+    .pie_pagina div a{
+        margin-left: 2vw;
+        margin: auto;
+        color: rgb(51, 51, 51);
+        text-decoration: none;
+        display: inline-block;
+    }
+    .pie_pagina div a:hover{
+        color: rgb(121, 121, 121);
+    }
+
+    #imagen_pie_pagina{
+        float: right;
+        margin:auto;
+        width: 27vw;
+        height: 27vw;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+    
+#texto_declaracion{
+    height: auto;
+    font-size: 3.2vw;
+    line-height: 1.5;
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+
+}
+
+#texto_declaracion_seguridad{
+    height: auto;
+    font-size: 3.2vw;
+    line-height: 1.5;
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+
+.separador_declaracion {
+    padding: 3vw 3vw;
+    width: 80vw;
+    height: auto;
+    font-size: 2.4vw;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    background: white;
+    margin: auto;
+}
+
+.separador_declaracion_seguridad {
+    padding: 3vw 3vw;
+    width: 80vw;
+    height: auto;
+    font-size: 2.4vw;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    background: white;
+    margin: auto;
+}
+
+
+
+.almacena_sello{
+    width: auto;
+    height: auto;
+    float: none;
+    overflow: hidden;
+    margin-bottom: 3vw;
+}
+#imagen_del_sello{
+    border-radius: 5px;
+    height: 30vw;
+    width: 30vw;
+    float: none;
+    margin-left: 20vw;
+}
+
+
+#copyright{
+    display: block;
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+    margin: auto;
+    margin-left: 2.2vw;
+}
+
+}
